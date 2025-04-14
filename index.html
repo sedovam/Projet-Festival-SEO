@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<title>Accueil</title>
 		
@@ -41,7 +41,7 @@
 		<!--00.header-->
 		<nav class="navbar sticky-top navbar-expand-lg navbar-dark maNav">
 			<a class="navbar-brand" href="#">
-				<img src="images/logo.jpg" width="100" alt="Logo du Festival des Films d'Auteurs">
+				<img src="images/logo.jpg" width="100" alt="Logo du festival de films"/>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -200,14 +200,14 @@
 						<form class="needs-validation" novalidate id="bookingValidation">				
 							<div class="form-group">
 								<label for="nom">Prénom Nom</label>
-								<input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+								<input class="form-control" required type="text" name="nom" id="booking-nom" placeholder="Jean Dupond" />
 								<div class="invalid-tooltip">
 									Merci de renseigner vos prénom et nom.
 								</div>
 							</div>
 							<div class="form-group">
 								<label for="mail">E-mail</label>
-								<input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+								<input class="form-control" required type="email" name="mail" id="booking-mail" placeholder="jeandupond@monmail.fr" />
 								<div class="invalid-tooltip">
 									Merci de renseigner votre e-mail.
 								</div>
@@ -272,14 +272,14 @@
 						<form class="needs-validation" novalidate id="contactValidation">
 							<div class="form-group">
 								<label for="nom">Prénom Nom</label>
-								<input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+								<input class="form-control" required type="text" name="nom" id="contact-nom" placeholder="Jean Dupond" />
 								<div class="invalid-tooltip">
 									Merci de renseigner vos prénom et nom.
 								</div>
 							</div>
 							<div class="form-group">
 								<label for="mail">E-mail</label>
-								<input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+								<input class="form-control" required type="email" name="mail" id="contact-mail" placeholder="jeandupond@monmail.fr" />
 								<div class="invalid-tooltip">
 									Merci de renseigner votre e-mail.
 								</div>
@@ -341,9 +341,15 @@
                     <div class="col-12 col-md-3 social">
                         <h2>Suivez-nous !</h2>
                         <div class="socialicons">
-                            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-                            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com" aria-label="Facebook">
+								<i class="fab fa-facebook-f"></i>
+							  </a>
+							  <a href="https://www.youtube.com" aria-label="YouTube">
+								<i class="fab fa-youtube"></i>
+							  </a>
+							  <a href="https://www.instagram.com" aria-label="Instagram">
+								<i class="fab fa-instagram"></i>
+							  </a>
                         </div>
                     </div>
                 </div>	
